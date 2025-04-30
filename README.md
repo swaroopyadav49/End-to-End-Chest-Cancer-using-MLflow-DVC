@@ -10,4 +10,43 @@
  6.Update the components <br>
  7.Update the pipeline <br>
  8.Update the main.py <br>
- 9.Update the dvc.yaml <br>
+ 9.Update the dvc.yaml (dvc/data version control-  for pipeline tracking) <br>
+
+
+## MLflow
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+- MLflow learning
+
+cmd
+
+- mlflow ui
+
+## dagshub
+
+- [dagshub](https://dagshub.com/dashboard)
+
+```cmd
+MLFLOW_TRACKING_URI=https://dagshub.com/swaroopyadav/chest-Disease-Classification-MLflow-DVC.mlflow
+MLFLOW_TRACKING_USERNAME=swaroopyadav
+MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0
+python script.py
+```
+
+
+# Run this to export as env variables:
+
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/swaroopyadav/chest-Disease-Classification-MLflow-DVC.mlflow
+
+export MLFLOW_TRACKING_USERNAME=swaroopyadav
+
+export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
+
+
+## DVC (data version control - Pipeline Tracking)
+1) dvc init <br>
+2) dvc repro <br>
+3) dvc dag  <br>
+
