@@ -35,14 +35,15 @@ python script.py
 ```
 
 
-# Run this to export as env variables:
+# Add MLFlow credientials to your local_machine env variables: <br>
 
+- Open env and add <br>
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/swaroopyadav/chest-Disease-Classification-MLflow-DVC.mlflow
+MLFLOW_TRACKING_URI=https://dagshub.com/swaroopyadav/chest-Disease-Classification-MLflow-DVC.mlflow
 
-export MLFLOW_TRACKING_USERNAME=swaroopyadav
+MLFLOW_TRACKING_USERNAME=swaroopyadav
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
+MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
 
 
 ## DVC (data version control - Pipeline Tracking)
